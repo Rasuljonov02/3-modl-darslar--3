@@ -1,0 +1,15 @@
+@mixin fon($color,$sixe,$withe,$spac){
+
+
+ color: $color;
+font-family: Cera Compact Pro;
+font-size: $sixe;
+font-style: normal;
+font-weight: $withe;
+line-height: normal;
+letter-spacing: $spac;
+}
+@mixin img($img){
+
+ background-image: $img;
+}

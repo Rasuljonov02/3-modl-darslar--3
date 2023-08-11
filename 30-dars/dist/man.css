@@ -1,0 +1,491 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+section {
+  width: 100%;
+  height: 880px;
+  display: flex;
+}
+
+.chap {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 20%;
+  height: auto;
+  background: #2e2e2e;
+}
+
+.ong {
+  width: 100%;
+  height: auto;
+  background: #202020;
+}
+.ong .tepa {
+  width: 100%;
+  height: 9%;
+  background: #2e2e2e;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.ong .pas {
+  box-sizing: border-box;
+  padding: 25px;
+}
+
+.fuutr {
+  padding: 0 20px;
+}
+
+.chap {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.katta {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+.katta .orta {
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.orta a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 20px;
+}
+.orta .a {
+  border-radius: 10px;
+  background: #1f1f1f;
+  padding: 8px 20px;
+  color: #fff;
+  font-family: Cera Compact Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.36;
+}
+
+a {
+  color: #d1cbcb;
+  font-family: Cera Compact Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.36px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pas {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  border-radius: 10px;
+  background: #202020;
+  padding: 8px 20px;
+}
+
+h4 {
+  color: #fff;
+  font-family: Cera Compact Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48;
+}
+
+.tepa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tepa span {
+  display: flex;
+  gap: 31px;
+}
+.tepa p {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-radius: 10px;
+  background: #202020;
+  color: #fff;
+  font-family: Cera Compact Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0;
+  padding: 8px 10px;
+  width: 200px;
+}
+
+.yoq {
+  width: 620px;
+  height: 200px;
+  border-radius: 10px;
+  background: #333232;
+  position: absolute;
+  top: 115px;
+  left: 270px;
+}
+
+.zoom {
+  z-index: 11;
+  border-radius: 10px;
+  background-image: url(../img/orta/fon.png);
+  width: 650px;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cbolc img {
+  width: 250px;
+  margin-top: 14px;
+}
+
+.aboc {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.aboc p {
+  color: #fff;
+  font-family: Cera Compact Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+.aboc h3 {
+  color: #fff;
+  font-family: Cera Compact Pro;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0;
+}
+.aboc .kok {
+  color: #16ffab;
+  font-family: Cera Compact Pro;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0;
+}
+.aboc a {
+  color: #fff;
+  font-family: Cera Compact Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0;
+  border-radius: 10px;
+  background: #ff158b;
+  padding: 8px;
+  width: 100px;
+  text-align: center;
+}
+
+.dota {
+  margin-top: 30px;
+  margin-left: 20px;
+  display: flex;
+  gap: 10px;
+  width: 650px;
+  overflow: scroll;
+}
+.dota::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.dota .popuns {
+  background-image: url(/img/orta/qizil.png);
+  width: 200px;
+  position: relative;
+  background-size: 200px, 200px;
+  background-repeat: no-repeat;
+  height: 250px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.dota .popuns .pa {
+  height: 80px;
+  width: 200px;
+  position: absolute;
+  border-radius: 0px 0px 10px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(50, 50, 50, 0.5);
+  backdrop-filter: blur(5px);
+  box-sizing: border-box;
+  padding: 20px;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.dota .popuns .pa h4 {
+  color: #fff;
+  font-family: Cera Compact Pro;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.34px;
+}
+.dota .popuns .pa h5 {
+  color: #928c8c;
+  font-family: Cera Compact Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0;
+}
+.dota .popuns .te {
+  box-sizing: border-box;
+  padding: 20px;
+}
+.dota .popuns .te p {
+  color: #16ffab;
+  font-family: Cera Compact Pro;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0;
+}
+
+.dota .c {
+  background-image: url(../img/orta/sariq.png);
+}
+.dota .v {
+  background-image: url(../img/orta/qora.png);
+}
+
+.overlov {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 50px;
+}
+.overlov .total {
+  display: flex;
+  border-radius: 5px;
+  background: #323232;
+  width: 630px;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.overlov .total h3 {
+  color: #fff;
+  font-family: Cera Compact Pro;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0;
+}
+.overlov .total p {
+  color: #bdbaba;
+  font-family: Cera Compact Pro;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0;
+}
+.overlov .total h5 {
+  color: #00ffa2;
+  font-family: Cera Compact Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0;
+  border-radius: 10px;
+  background: rgba(22, 255, 170, 0.2588235294);
+  padding: 8px 15px;
+}
+
+.m:hover {
+  transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+
+.dotichni {
+  opacity: 0;
+  position: absolute;
+  width: 180px;
+  top: 50px;
+}
+
+.dotichni:hover {
+  opacity: 1;
+  transform: translate3d(0%, -35%, 100px);
+  transition: all 0.5s;
+}
+
+.v:hover {
+  transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+
+.c:hover {
+  transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+
+.grid {
+  display: flex;
+}
+
+.chat {
+  margin-top: 22px;
+  border-radius: 10px;
+  background: #2e2e2e;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height: 400px;
+}
+.chat span {
+  display: flex;
+  justify-content: space-between;
+}
+.chat .yana {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 70px;
+  gap: 8px;
+  border-radius: 10px;
+  background: #323232;
+}
+.chat .tagi {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 1px 0px 10px 10px;
+  background: #323232;
+  padding: 10px 60px;
+}
+.chat .tagi span {
+  display: flex;
+  gap: 10px;
+}
+.chat .jonli {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.yana h3 {
+  color: #fff;
+  font-family: Cera Compact Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.32;
+}
+.yana h6 {
+  color: #16ffab;
+  font-family: Cera Compact Pro;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0;
+}
+.yana p {
+  color: #fff;
+  font-family: Cera Compact Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0;
+}
+
+.top h4 {
+  color: #fff;
+  font-family: Cera Compact Pro;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.51;
+}
+.top p {
+  color: #979090;
+  font-family: Cera Compact Pro;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0;
+}
+
+.top {
+  margin-top: 22px;
+  border-radius: 10px;
+  background: #2e2e2e;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 250px;
+}
+.top span {
+  display: flex;
+  justify-content: space-between;
+}
+.top .vunit {
+  border-radius: 10px;
+  background: #323232;
+  gap: 8px;
+  display: flex;
+  padding: 8px 0;
+  justify-content: space-around;
+}
+.top .vunit span {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+/*# sourceMappingURL=man.css.map */

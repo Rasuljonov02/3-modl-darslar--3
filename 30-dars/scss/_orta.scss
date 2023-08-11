@@ -1,0 +1,196 @@
+@import "funcsiya";
+
+.tepa {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	span {
+		display: flex;
+		gap: 31px;
+	}
+	p {
+		display: flex;
+		align-items: center;
+		gap: 15px;
+		border-radius: 10px;
+		background: #202020;
+		@include fon(#fff, 14px, 400, 0);
+		padding: 8px 10px;
+		width: 200px;
+	}
+}
+.yoq {
+	width: 620px;
+	height: 200px;
+	border-radius: 10px;
+	background: #333232;
+	position: absolute;
+	top: 115px;
+	left: 270px;
+}
+.zoom {
+	z-index: 11;
+	border-radius: 10px;
+
+	background-image: url(../img/orta/fon.png);
+	width: 650px;
+	height: 200px;
+	display: flex;
+
+	justify-content: space-around;
+	align-items: center;
+}
+.cbolc {
+	img {
+		width: 250px;
+		margin-top: 14px;
+	}
+}
+.aboc {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+
+	p {
+		@include fon(#fff, 14px, 500, 0);
+		text-transform: uppercase;
+	}
+	h3 {
+		@include fon(#fff, 30px, 400, 0);
+	}
+	.kok {
+		@include fon(#16ffab, 30px, 400, 0);
+	}
+	a {
+		@include fon(#fff, 20px, 500, 0);
+		border-radius: 10px;
+		background: #ff158b;
+		padding: 8px;
+		width: 100px;
+		text-align: center;
+	}
+}
+.dota {
+	margin-top: 30px;
+	margin-left: 20px;
+	display: flex;
+	gap: 10px;
+
+	width: 650px;
+	overflow: scroll;
+	&::-webkit-scrollbar {
+		width: 0;
+		height: 0;
+	}
+	.popuns {
+		background-image: url(/img/orta/qizil.png);
+		width: 200px;
+		position: relative;
+		background-size: 200px, 200px;
+		background-repeat: no-repeat;
+		height: 250px;
+		flex-shrink: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		.pa {
+			height: 80px;
+			width: 200px;
+			position: absolute;
+			border-radius: 0px 0px 10px 10px;
+			border: 1px solid rgba(255, 255, 255, 0.1);
+			background: rgba(50, 50, 50, 0.5);
+			backdrop-filter: blur(5px);
+			box-sizing: border-box;
+			padding: 20px;
+			bottom: 0;
+			display: flex;
+			justify-content: space-between;
+			h4 {
+				@include fon(#fff, 17px, 700, 0.34px);
+			}
+			h5 {
+				@include fon(#928c8c, 14px, 400, 0);
+			}
+		}
+		.te {
+			box-sizing: border-box;
+			padding: 20px;
+			p {
+				@include fon(#16ffab, 12px, 700, 0);
+			}
+		}
+	}
+}
+.dota {
+	.c {
+		@include img(url(../img/orta/sariq.png));
+	}
+	.v {
+		@include img(url(../img/orta/qora.png));
+	}
+}
+
+// eng paasti
+
+.overlov {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	gap: 50px;
+	.total {
+		display: flex;
+		border-radius: 5px;
+		background: #323232;
+		width: 630px;
+		align-items: center;
+		padding: 10px;
+		justify-content: space-between;
+		margin-left: 20px;
+		h3 {
+			@include fon(#fff, 17px, 500, 0);
+		}
+		p {
+			@include fon(#bdbaba, 12px, 400, 0);
+		}
+		h5 {
+			@include fon(#00ffa2, 14px, 500, 0);
+			border-radius: 10px;
+
+			background: #16ffaa42;
+			padding: 8px 15px;
+		}
+	}
+}
+
+.m:hover {
+	transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+	box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+.dotichni {
+	opacity: 0;
+	position: absolute;
+	width: 180px;
+	top: 50px;
+}
+.dotichni:hover {
+	opacity: 1;
+
+	transform: translate3d(0%, -35%, 100px);
+	transition: all 0.5s;
+}
+.v:hover {
+	transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+	box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+.c:hover {
+	transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+	box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}

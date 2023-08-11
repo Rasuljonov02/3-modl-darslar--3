@@ -1,0 +1,52 @@
+@import "./funcsiya";
+.fuutr {
+	padding: 0 20px;
+}
+.chap {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.katta {
+	display: flex;
+	flex-direction: column;
+	gap: 90px;
+	.orta {
+		gap: 25px;
+		display: flex;
+		flex-direction: column;
+	}
+}
+.orta {
+	a {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		padding: 0 20px;
+	}
+	.a {
+		border-radius: 10px;
+		background: #1f1f1f;
+		padding: 8px 20px;
+
+		@include fon(#fff, 18px, 500, 0.36);
+	}
+}
+a {
+	@include fon(#d1cbcb, 18px, 400, 0.36px);
+}
+a {
+	text-decoration: none;
+}
+.pas {
+	display: flex;
+	align-items: center;
+	gap: 18px;
+	border-radius: 10px;
+	background: #202020;
+	padding: 8px 20px;
+}
+h4 {
+	@include fon(#fff, 16px, 500, 0.48);
+}

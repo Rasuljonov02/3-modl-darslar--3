@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+section {
+	width: 100%;
+	height: 880px;
+
+	display: flex;
+}
+.chap {
+	box-sizing: border-box;
+	padding: 20px;
+	width: 20%;
+	height: auto;
+	background: #2e2e2e;
+}
+.ong {
+	width: 100%;
+	height: auto;
+	background: #202020;
+
+	.tepa {
+		width: 100%;
+		height: 9%;
+		background: #2e2e2e;
+		box-sizing: border-box;
+		padding: 20px;
+	}
+	.pas {
+		box-sizing: border-box;
+		padding: 25px;
+	}
+}
+
+@import "./scss/index";

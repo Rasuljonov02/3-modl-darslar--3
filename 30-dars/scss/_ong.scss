@@ -1,0 +1,101 @@
+.grid {
+	display: flex;
+}
+
+.chat {
+	margin-top: 22px;
+	border-radius: 10px;
+	background: #2e2e2e;
+
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 300px;
+
+	height: 400px;
+	span {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.yana {
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+		height: 70px;
+		gap: 8px;
+		border-radius: 10px;
+		background: #323232;
+	}
+
+	.tagi {
+		display: flex;
+		justify-content: space-between;
+		border-radius: 1px 0px 10px 10px;
+		background: #323232;
+		padding: 10px 60px;
+
+		span {
+			display: flex;
+			gap: 10px;
+		}
+	}
+
+	.jonli {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+}
+
+.yana {
+	h3 {
+		@include fon(#fff, 16px, 500, 0.32);
+	}
+	h6 {
+		@include fon(#16ffab, 12px, 400, 0);
+	}
+	p {
+		@include fon(#fff, 14px, 400, 0);
+	}
+}
+
+.top {
+	h4 {
+		@include fon(#fff, 17px, 700, 0.51);
+	}
+	p {
+		@include fon(#979090, 10px, 400, 0);
+	}
+}
+.top {
+	margin-top: 22px;
+	border-radius: 10px;
+	background: #2e2e2e;
+
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 300px;
+
+	height: 250px;
+	span {
+		display: flex;
+		justify-content: space-between;
+	}
+	.vunit {
+		border-radius: 10px;
+		background: #323232;
+		gap: 8px;
+		display: flex;
+		padding: 8px 0;
+		justify-content: space-around;
+		span {
+			display: flex;
+			flex-direction: column;
+			gap: 2px;
+		}
+	}
+}
